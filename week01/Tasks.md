@@ -1,12 +1,3 @@
-<style>
-p{
-    font-size:17px;
-}
-
-h2{
-    color:green;
-}
-</style>
 
 <h1>TASKS</h1>
 
