@@ -1,5 +1,5 @@
 
-<h1>TASKS</h1>
+<h1 style="color:red">TASKS</h1>
 
 <h2>Задача 0</h2>
 <p>Напишете програма, която извежда в конзолата следното съобщение: "Pavkata ne proshtava!".</p>
