@@ -10,3 +10,16 @@
 
 <h2> Задача 2 </h2>
 <p>По въведен символ да се отпечата на екрана едно от следните съобщения: (Първо) Ако е малка буква - "The upper case character corresponding to is ...", (Второ) Ако е главна буква - "The lower case character corresponding to is ...", или (Трето) Ако не е буква - " is not a letter". Използвайте ASCII таблицата.</p>
+</br>
+<p> Enter symbol: a</p>
+<p>The upper case character corresponding to is A</p>
+</br>
+
+<h2> Задача 3 </h2>
+<p> Използвайте оператор switch като според въведен месец от годината (цяло число) да се изведе кой сезон е.</p>
+<p>6</p>
+<p>The season is summer!</p>
+</br>
+
+<h2> Задача 4 </h2>
+<p> </p>
