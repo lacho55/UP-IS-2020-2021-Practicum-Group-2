@@ -13,4 +13,3 @@ int main() {
 
 	bool isGoingToBeFed = studentSalad || ((studentSoup || studentGuvech) && hasFriend);
 }
-
