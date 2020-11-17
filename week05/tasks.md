@@ -1,8 +1,8 @@
 <h1> Практикум 5 </h1>
 </br>
 
-# За задачите за сортиране може да ползвате един от следните алгоритми за сортиране: Bubble sort, insertion sort, selection sort.
-# Link: https://github.com/lacho55/Algorithms-and-Data-Structures/tree/master/SortingAlgorithms
+### За задачите за сортиране може да ползвате един от следните алгоритми за сортиране: Bubble sort, insertion sort, selection sort.
+### Link: https://github.com/lacho55/Algorithms-and-Data-Structures/tree/master/SortingAlgorithms
 
 ## Задача 0
 Да се прочете въведено цяло положително число n и да се създаде масив от цели числа с n на брой елемента. След това се четат въведени n на брой числа, с които се запълва масива. Въвежда се още едно цяло число. а) да се определи среща ли се въведеното число в масива и ако да, колко пъти; б) ако числото се среща в масива, да се определят и отпечатат всички позиции, на които то се среща.
