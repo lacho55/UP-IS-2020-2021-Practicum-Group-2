@@ -1,47 +1,61 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-//Made by Bojidara Kalichkova
+//Made by Georgi Krastenov :)
 
-int main(){
-	
-	char a[10000],b[1000];
-	int length1, length2, br = 0, actualBr = 0;
+int main()
+{
+    const int firstSize = 128;
+    const int secondSize = 64;
 
-	cout << "Length on the larger niz: ";
-	cin >> length1;
-	
-	cout << "Length on the smaller niz: ";
-	cin >> length2;
-	
-	if (length1 < length2) {
-		cout << "Invalid lengths.";
-	}
-	else {
-		for (int i = 0; i < length1; i++)
-		{
-			cin >> a[i];
-		}
-		for (int i = 0; i < length2; i++)
-		{
-			cin >> b[i];
-		}
-		for (int i = 0; i < length1; i++)
-		{
-			for (int j = 0; j < length2; j++)
-			{
-				if (a[i] == b[j]) br++;
-			}
-		}
-		
-		cout << endl;
-		
-		if (br != 0){
-			cout << br/length2;
-		}
-		else {
-			cout << "The second niz isn't included in the first one";
-		}
-	}
-  
-  }
+    int firstLength;
+    int secondLength;
+
+    cout << "First length:" << endl;
+    cin >> firstLength;
+    cout << "Second length:" << endl;
+    cin >> secondLength;
+
+    char first[firstSize];
+    char second[secondSize];
+
+    cout << "Write your first string" << endl;
+    for (int i = 0; i < firstLength; i++)
+    {
+        cin >> first[i];
+    }
+
+    cout << "Write your second string" << endl;
+    for (int i = 0; i < secondLength; i++)
+    {
+        cin >> second[i];
+    }
+
+    int result = 0;
+    for (int i = 0; i < firstLength; i++)
+    {
+        int index = i;
+        bool flag = false;
+        for (int j = 0; j < secondLength; j++)
+        {
+            if (first[index] == second[j])
+            {
+                flag = true;
+                index++;
+                continue;
+            }
+            else {
+                flag = false;
+                break;
+            }       
+        }
+        if (flag)
+        {
+            result++;
+            i = i + secondLength - 1;
+        }
+    }
+
+    cout << "The result is: " << result << endl;
+
+}
