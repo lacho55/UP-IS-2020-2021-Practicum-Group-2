@@ -21,6 +21,7 @@ int main(){
 	
 	int* newArr = halfSize(arr,4);
 	
+	delete newArr;
 	
 	return 0;
 }
