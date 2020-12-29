@@ -52,12 +52,12 @@
 
 Вход:
 
-	BCTKC
+	OCTVKPUHCPIKTN
 	2
 
 Изход:
 
-	ZARIA
+	MARTINSFANGIRL
 
 Вход:
 
