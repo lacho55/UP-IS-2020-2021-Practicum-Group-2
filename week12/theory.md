@@ -62,3 +62,7 @@ Student student_two = student_two;
 * за инициализиране на елементите на структурата
 * за извеждане на елементите на структурата на екрана
 * за променяне стойностите на елементите на структурата
+
+<br>
+
+## <a href = "https://en.wikipedia.org/wiki/Data_structure_alignment?fbclid=IwAR0Vjz-hzTXGnP8-cDIAOhWutSGu7xYLF1OnojYAip4mY-pK8GYZ3SYLKeA"> Допълнително четиво за структури</a>
