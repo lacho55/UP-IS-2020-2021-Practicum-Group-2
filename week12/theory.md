@@ -65,4 +65,6 @@ Student student_two = student_two;
 
 <br>
 
-## <a href = "https://en.wikipedia.org/wiki/Data_structure_alignment?fbclid=IwAR0Vjz-hzTXGnP8-cDIAOhWutSGu7xYLF1OnojYAip4mY-pK8GYZ3SYLKeA"> Допълнително четиво за структури</a>
+## <a href = "https://en.wikipedia.org/wiki/Data_structure_alignment?fbclid=IwAR0Vjz-hzTXGnP8-cDIAOhWutSGu7xYLF1OnojYAip4mY-pK8GYZ3SYLKeA"> Допълнително четиво за структури 1</a>
+
+## <a href = "https://www.geeksforgeeks.org/data-structure-alignment/?fbclid=IwAR0m3INKWr6ygvoFIau5UjxhFte93-PYY4MZ8cPWPxUE0u0ndlQ4ZQvpFbI">Допълнително четиво за структури 2 </a>
